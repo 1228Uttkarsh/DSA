@@ -18,14 +18,14 @@ public class D12_ReverseArray {
         int arr[]= {10,5,8,30};
         int n = arr.length;
         System.out.println("Array before reverse:");
-        for(int i=0;i<n;i++){
+        
             System.out.print(arr[i]+" ");
-        }
+       
         System.out.println();
         reverse(arr,n);
         System.out.println("Array after reverse:");
-        for(int i=0; i<n; i++){
+       
             System.out.print(arr[i]+" ");
-        }
+        
     }
 }
